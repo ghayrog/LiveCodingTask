@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveCodeApp", "LiveCodeApp\LiveCodeApp.csproj", "{5CBAA15C-EB17-4093-84F4-AAF1D2837091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CBAA15C-EB17-4093-84F4-AAF1D2837091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBAA15C-EB17-4093-84F4-AAF1D2837091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBAA15C-EB17-4093-84F4-AAF1D2837091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBAA15C-EB17-4093-84F4-AAF1D2837091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {195C612C-CFE3-42F7-8EAC-729C3D92D052}
+	EndGlobalSection
+EndGlobal
