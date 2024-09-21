@@ -13,9 +13,9 @@
             _verticalDepth = verticalDepth;
         }
 
-        public double GetBottomPressure(double flowRate, double TopPressure)
+        public double GetBottomPressure(double flowRate, double topPressure)
         {
-            return TopPressure + 0.025 * flowRate;
+            return topPressure + 0.025 * flowRate;
         }
 
     }
