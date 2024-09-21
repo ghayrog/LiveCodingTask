@@ -4,6 +4,6 @@
     {
         public double InnerDiameter { get; }
 
-        public double GetBottomPressure(double flowRate, double TopPressure);
+        public double GetBottomPressure(double flowRate, double topPressure);
     }
 }
