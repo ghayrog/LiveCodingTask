@@ -1,9 +1,9 @@
 ﻿namespace LiveCodeApp
 {
-    internal interface IWell
+    public interface IWell
     {
-        internal double InnerDiameter { get; }
+        public double InnerDiameter { get; }
 
-        internal double GetBottomPressure(double flowRate, double TopPressure);
+        public double GetBottomPressure(double flowRate, double TopPressure);
     }
 }

@@ -1,10 +1,10 @@
 ﻿namespace LiveCodeApp
 {
-    public class SimpleReservoir : IReservoir
+    public sealed class SimpleReservoir : IReservoir
     {
         public double ReservoirPressure => _reservoirPressure;
 
-        double _reservoirPressure;
+        private double _reservoirPressure;
 
         public SimpleReservoir(double initialPressure)
         {
